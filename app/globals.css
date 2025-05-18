@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+.link {
+  @apply  px-2 hover:underline hover:text-blue-400 transition-all;
+}
+.link-active {
+  @apply text-blue-500;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
